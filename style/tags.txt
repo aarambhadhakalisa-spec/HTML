@@ -1,0 +1,5 @@
+<strong> / <b>: Makes text bold. (<strong> means important; <b> is just visual).
+<del> / <s>: Adds a ~~strikethrough~~. (<del> shows deleted text; <s> shows deleted info).
+<style>: Houses CSS code directly inside HTML to handle the layout, colors, and fonts of the page.
+The <abbr> tag defines an abbreviation or an acronym (like "HTML" or "NASA").
+The <small> tag shrinks text font size down
