@@ -246,88 +246,87 @@ style="display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:20px
 </div>
 
 <style>
-    .header {
-        text-align: center;
-        color: rgba(246, 181, 4, 0.71);
-        display: block;
-        flex-wrap: wrap;
-        font-size: 24px;
-        text-decoration: underline solid rgba(239, 177, 7, 0.71);
-        font-family: Brush Script MT (cursive);
-        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-     }
+        .header {
+            text-align: center;
+            color: rgba(246, 181, 4, 0.71);
+            font-size: 24px;
+            text-decoration: underline solid rgba(239, 177, 7, 0.71);
+            font-family: 'Brush Script MT', cursive;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            padding: 10px;
+        }
 
-     .city {
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-        background-color: aliceblue;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-     }
+        .city {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
 
-     .city p {
-        margin: 0;
-        font-weight: bolder;
-        color: black;
-     }
+        .city p {
+            margin: 0;
+            font-weight: bolder;
+            color: black;
+        }
 
-     .city p description {
-        font-weight: normal;
-        display: block;
-        color: aliceblue;
-        font-size: 14px;
-        text-align: justify;
-        max-width: 400px;
-     }
+        .city p .description {
+            font-weight: normal;
+            display: block;
+            color: aliceblue;
+            font-size: 14px;
+            text-align: justify;
+            max-width: 400px;
+        }
 
-     #button {
-        text-align: center;
-        margin-top: 20px;
-        display: inline-block;
-        justify-content: center;
-        border-radius: 5px;
-        background-color:  blue;
-        color: white;
-        size: 16px;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        position: relative;
-     }
+        #button {
+            text-align: center;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            font-size: 16px; 
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            border: none;
+        }
 
-     #button:hover {
-        background-color: #0056b3;
-        transform: translateY(-2px);
-     }
+        #button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
 
-     #button:active {
-        transform: scale(0.98) ;
-     }
+        #button:active {
+            transform: scale(0.98);
+        }
 
-     
-     #signin-button {
-        text-align: center;
-        margin-top: 20px;
-        display: inline-block;
-        border-radius: 5px;
-        background-color: #28a745; 
-        color: white;
-        size: 16px;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-     }
+        #signin-button {
+            text-align: center;
+            float: right;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #28a745; 
+            color: white;
+            font-size: 16px; /* Fixed from size to font-size */
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            border: none;
+        }
 
-     #signin-button:hover {
-        background-color: #218838;
-        transform: translateY(-2px);
-     }
+        #signin-button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
 
-     #signin-button:active {
-        transform: scale(0.98) ;
-     }
-</style>
+        #signin-button:active {
+            transform: scale(0.98);
+        }
+    </style>
 
 </body>
 </html>
