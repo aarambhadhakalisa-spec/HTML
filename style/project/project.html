@@ -251,7 +251,7 @@ style="display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:20px
             color: rgba(246, 181, 4, 0.71);
             font-size: 24px;
             text-decoration: underline solid rgba(239, 177, 7, 0.71);
-            font-family: 'Brush Script MT', cursive;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             box-shadow: 0 6px 15px rgba(0,0,0,0.1);
             padding: 10px;
         }
@@ -326,6 +326,54 @@ style="display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:20px
             transform: scale(0.98);
         }
     </style>
+    <form display = "flex" flex-direction = "column" align-items = "center" justify-content = "center" style="margin-top: 20px; display: grid; grid-template-columns: repeat(1,1fr); gap: 20px; background-color: #f2f2f2; color: black; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h1>Sign-Up Form</h1>
+        <div>
+            <label for="name" style="font-weight: bold;">Name:</label>
+            <input type="text" id = "name" name="name" required placeholder="Enter your Name">
+        </div>
+
+        <div>
+            <label for="email" style="font-weight: bold;">Email:</label>
+            <input type="email" id = "email" name="email" required placeholder="Enter your Email">
+        </div>
+
+        <div>
+            <label for="password" style="font-weight: bold;">Password:</label>
+            <input type="password" id = "password" name="password" required placeholder="Enter your Password">
+        </div>
+
+        <div>
+            <label for="Date of Birth" style="font-weight: bolder;">Date of Birth:</label>
+            <input type="Date of Birth" id = "Date of birth" name="Date of Birth" required, placeholder="yyyy-mm-dd";>
+        </div>
+
+        <div>
+        <label for="gender" Style="font-weight: bold;">Gender:</label>
+        <select id="gender" name="gender" required placeholder="Select>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+        <div>
+            <label for="Confirm Password" style="font-weight: bold;">Confirm Password:</label>
+            <input type="Confirm Password" id = "Confirm Password" name="Confirm Password" required placeholder="Confirm your Password">
+        </div>
+
+        <div>
+            <label for="Phone Number" style="font-weight: bold;">Phone Nnumber:</label>
+            <input type="Phone Number" id = "Phone Number" name="Phone Number">
+        </div>
+
+        <div style="text-align: center; margin-top: 10px;">
+            <button type="submit" style="background-color: #28a745; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                Submit
+            </button>
+        </div>
+    </form>
 
 </body>
 </html>
