@@ -326,31 +326,31 @@ style="display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:20px
             transform: scale(0.98);
         }
     </style>
-    <form display = "flex" flex-direction = "column" align-items = "center" justify-content = "center" style="margin-top: 20px; display: grid; grid-template-columns: repeat(1,1fr); gap: 20px; background-color: #f2f2f2; color: black; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h1>Sign-Up Form</h1>
+    <form style="width:400px; margin:30px auto; display:grid; grid-template-columns:1fr; gap:18px; padding:25px; background-color:#ffffff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">.         
+        <h1 style="text-align: center;">Sign-Up Form</h1>
         <div>
-            <label for="name" style="font-weight: bold;">Name:</label>
-            <input type="text" id = "name" name="name" required placeholder="Enter your Name">
+            <label for="name" style="font-weight: bold; display: block; margin: 5px;">Name:</label>
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;"type="text" id = "name" name="name" required placeholder="Enter your Name">
         </div>
 
         <div>
             <label for="email" style="font-weight: bold;">Email:</label>
-            <input type="email" id = "email" name="email" required placeholder="Enter your Email">
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" type="email" id = "email" name="email" required placeholder="Enter your Email">
         </div>
 
         <div>
             <label for="password" style="font-weight: bold;">Password:</label>
-            <input type="password" id = "password" name="password" required placeholder="Enter your Password">
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" type="password" id = "password" name="password" required placeholder="Enter your Password">
         </div>
 
         <div>
             <label for="Date of Birth" style="font-weight: bolder;">Date of Birth:</label>
-            <input type="Date of Birth" id = "Date of birth" name="Date of Birth" required, placeholder="yyyy-mm-dd";>
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" type="Date of Birth" id = "Date of birth" name="Date of Birth" required, placeholder="yyyy-mm-dd";>
         </div>
 
         <div>
         <label for="gender" Style="font-weight: bold;">Gender:</label>
-        <select id="gender" name="gender" required placeholder="Select>
+        <select style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" id="gender" name="gender" required placeholder="Select>
             <option value="">Select Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -360,18 +360,19 @@ style="display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:20px
 
         <div>
             <label for="Confirm Password" style="font-weight: bold;">Confirm Password:</label>
-            <input type="Confirm Password" id = "Confirm Password" name="Confirm Password" required placeholder="Confirm your Password">
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" type="Confirm Password" id = "Confirm Password" name="Confirm Password" required placeholder="Confirm your Password">
         </div>
 
         <div>
-            <label for="Phone Number" style="font-weight: bold;">Phone Nnumber:</label>
-            <input type="Phone Number" id = "Phone Number" name="Phone Number">
+            <label for="Phone Number" style="font-weight: bold;">Phone Number:</label>
+            <input style ="width: 100%; padding: 10px; border: 1px solid rgb(255, 255, 255); border-radius: 5px;" type="Phone Number" id = "Phone Number" name="Phone Number">
         </div>
 
         <div style="text-align: center; margin-top: 10px;">
-            <button type="submit" style="background-color: #28a745; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; font-weight: bold;">
-                Submit
-            </button>
+            <button type="submit"
+        style="padding:12px; background-color:#007BFF; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer; font-family: 'Times New Roman', Times, serif;">
+        Submit
+    </button>
         </div>
     </form>
 
